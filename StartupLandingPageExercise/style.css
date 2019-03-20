@@ -1,0 +1,42 @@
+body,
+html {
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  background-image: url('header.jpg');
+  background-color: black;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.full-height{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+}
+
+@media screen and (max-width: 800px) {
+  full-height {
+    height: 600px;
+  };
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: black;
+  }
+}
+
+h3 {
+  color: white;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+img{
+  float: left;
+}
+
