@@ -15,5 +15,8 @@ function setGradient() {
 }
 
 color1.addEventListener("input", setGradient);
-
 color2.addEventListener("input", setGradient);
+
+//adapting page to the inputs values
+// body.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
+setGradient()
